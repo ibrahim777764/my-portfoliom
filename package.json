@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ibrahim777764/my-portfoliom/issues"
   },
-  "homepage": "https://github.com/ibrahim777764/my-portfoliom#readme"
+  "homepage": "https://github.com/ibrahim777764/my-portfoliom#readme",
+  "devDependencies": {
+    "hint": "^6.1.9"
+  }
 }
