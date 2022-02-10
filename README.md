@@ -12,11 +12,6 @@ For the first milestone in the process of creating your portfolio website, you w
 set up a new repository and prepare it for development using best practices (e.g. linters).
 build the first 2 sections of the mobile website using the template you chose in the previous step.
 
-x-special/nautilus-clipboard
-copy
-recent:///45c4e0f6c90303af6c646bb36205945d
-recent:///3cb175a8abb45dadb6eed4976205945a
-
 ## Built With
 
 
