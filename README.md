@@ -27,24 +27,6 @@ build the first 2 sections of the mobile website using the template you chose in
 - html
 - css
 
-
-
-
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👤 **Author1**
