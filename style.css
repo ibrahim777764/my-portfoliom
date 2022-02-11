@@ -135,8 +135,6 @@ a:visited {
   margin-left: 40px;
 }
 
-
-
 .info-section {
   position: relative;
   color: #344563;
@@ -405,8 +403,6 @@ ul .small-button-wrapper {
     width: 80%;
   }
 
-  
-
   body {
     width: 100%;
   }
@@ -415,7 +411,7 @@ ul .small-button-wrapper {
     width: 100%;
   }
 
-  .container1{
+  .container1 {
     width: 100%;
     align-self: center;
     background: none;
@@ -442,7 +438,6 @@ ul .small-button-wrapper {
     padding-right: 30px;
     transition: all 0.2s ease-in;
   }
-
 
   .sec1 {
     background: #fff url(Ellipse\ 11.svg);
@@ -475,5 +470,4 @@ ul .small-button-wrapper {
   .LET {
     margin: 0 0 0 0;
   }
-
 }
