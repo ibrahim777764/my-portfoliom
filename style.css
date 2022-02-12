@@ -94,6 +94,17 @@ ul {
   margin-right: 8px;
 }
 
+.pp {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+  
+}
 ul.myclass {
   list-style-type: circle;
   font-size: 0.6em;
@@ -102,12 +113,41 @@ ul.myclass {
 ul.myclass li {
   float: left;
   margin: 0 20px;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: bold ;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+background: #FFFFFF;
+color: gray;
+
+
 }
 
 ul.myclass li.li-class {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
+  color: #000;
+}
+h3 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #6070ff;
+  background: #EBEBFF;
+
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  padding: 12px;
+  border-radius: 8px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; 
 }
 
 .nav {
@@ -732,6 +772,7 @@ ul .small-button-wrapper {
   .Languages {
     display: flex;
     flex-direction: column;
+   
   }
 
   .cat-Languages {
@@ -742,13 +783,34 @@ ul .small-button-wrapper {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #000;
+    color: rgb(216, 216, 216);
+    
+position: static;
+width: 303px;
+height: 66.72px;
+left: 12px;
+top: 12px;
+
+/* Neutrals/N10 */
+
+background: #F7F7F9;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 12px 0px;
+
   }
 
   .cat-Languages li p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #32323a;
+    border-radius: 8px;
   }
 
   .title-text {
@@ -763,12 +825,14 @@ ul .small-button-wrapper {
     display: flex;
     align-items: center;
     color: #253858;
+    
   }
 
   .seperator {
     content: "";
     border-bottom: 1px solid #ccc;
     padding-top: 0.5rem;
+    
   }
 
   #form {
@@ -890,11 +954,6 @@ ul .small-button-wrapper {
     padding: 10px;
     flex: 50%;
   }
-
-  .pp {
-    font-size: 10px;
-  }
-
   @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;
