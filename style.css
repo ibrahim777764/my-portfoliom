@@ -50,22 +50,20 @@ body {
 }
 
 .container1 {
-  display: flex;
   flex-direction: column;
   width: 94%;
   background-image: url(images/background.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-top: 30px;
-    background-color: #f7f7f9;
-    height: 100%;
-    display: grid;
-    justify-content: center;
-    grid-gap: 50px;
-    grid-template-columns: 400px;
-    grid-column-gap: 20px;    
-  }
-
+  background-color: #f7f7f9;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  grid-gap: 50px;
+  grid-template-columns: 400px;
+  grid-column-gap: 20px;
+}
 
 ul {
   list-style: none;
@@ -80,25 +78,36 @@ ul {
   align-content: space-between;
 }
 
+.nav-two li {
+  color: white;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 110px;
+  padding-left: 20px;
+}
+
+.project__quali li {
+  font-size: 13px;
+  font-weight: 600;
+  color: #7a869a;
+  line-height: 16px;
+  margin-right: 8px;
+}
+
 ul.myclass {
   list-style-type: circle;
   font-size: 0.6em;
-  
-
 }
 
-ul.myclass li{
+ul.myclass li {
   float: left;
   margin: 0 20px;
 }
 
-ul.myclass li.li-class{
-
+ul.myclass li.li-class {
   list-style: none;
-  padding-left:0;
+  padding-left: 0;
   margin-left: 0;
-  
-
 }
 
 .nav {
@@ -139,14 +148,6 @@ a:visited {
   position: absolute;
   width: 100%;
   z-index: 1;
-}
-
-.nav-two li {
-  color: white;
-  font-weight: 600;
-  font-size: 46px;
-  line-height: 110px;
-  padding-left: 20px;
 }
 
 .sec1 {
@@ -202,19 +203,6 @@ a:visited {
   position: relative;
 }
 
-.lang-container li {
-  display: flex;
-  width: 303px;
-  height: 66.72px;
-  top: 12px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 12px 0;
-}
-
 .project {
   background-color: #f7f7f9;
   height: 100%;
@@ -222,7 +210,7 @@ a:visited {
   justify-content: center;
   grid-gap: 50px;
   grid-template-columns: 400px;
-  grid-column-gap: 20px;    
+  grid-column-gap: 20px;
   padding: 50px 24px;
 }
 
@@ -248,14 +236,6 @@ a:visited {
 .project__quali {
   display: flex;
   align-items: center;
-}
-
-.project__quali li {
-  font-size: 13px;
-  font-weight: 600;
-  color: #7a869a;
-  line-height: 16px;
-  margin-right: 8px;
 }
 
 .project__circle {
@@ -891,35 +871,33 @@ ul .small-button-wrapper {
   .intouch {
     margin-bottom: 20px;
   }
+
   .flex-container {
     display: flex;
     flex-direction: row;
     font-size: 30px;
     text-align: center;
   }
-  
+
   .flex-item-left {
     background-color: #f1f1f1;
     padding: 10px;
     flex: 50%;
   }
-  
+
   .flex-item-right {
     background-color: dodgerblue;
     padding: 10px;
     flex: 50%;
   }
+
   .pp {
     font-size: 10px;
   }
-  
-  /* Responsive layout - makes a one column-layout instead of two-column layout */
+
   @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;
     }
   }
-  
-
-  }
-
+}
